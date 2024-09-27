@@ -36,6 +36,9 @@ function App() {
     setContacts([...za]); //clone the list
   }
   const secretApiKey = "MY_SECRET_API_KEY_12345";
+  export const config = {
+    apiKey: "MY_SECRET_API_KEY_12345"
+};
   return (
     <div className='tc '>
       <header>
