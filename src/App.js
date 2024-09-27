@@ -39,6 +39,7 @@ function App() {
   export const config = {
     apiKey: "MY_SECRET_API_KEY_12345"
 };
+  const password="password";
   return (
     <div className='tc '>
       <header>
