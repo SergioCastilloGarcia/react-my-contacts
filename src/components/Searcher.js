@@ -1,6 +1,12 @@
 import { BiSortAZ, BiSortZA } from "react-icons/bi"
 
 const Searcher = ({ searchChange, az, za }) => {
+
+    const secretApiKey = "MY_SECRET_API_KEY_12345";
+    const config = {
+        apiKey: "MY_SECRET_API_KEY_12345"
+    };
+    const password = "password";
     return (
         <div className='pa2 bg-lightest-blue'>
             <div className="absolute f1 ml3">
